@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Sample KML File</name>
+    
+    <!-- Point Example -->
+    <Placemark>
+      <name>Sample Point</name>
+      <Point>
+        <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
+      </Point>
+    </Placemark>
+
+    <!-- LineString Example -->
+    <Placemark>
+      <name>Sample Line</name>
+      <LineString>
+        <coordinates>
+          -122.084,37.422  -122.083,37.423  -122.082,37.424
+        </coordinates>
+      </LineString>
+    </Placemark>
+
+    <!-- Polygon Example -->
+    <Placemark>
+      <name>Sample Polygon</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              -122.085,37.422  -122.084,37.423  -122.083,37.422  -122.085,37.422
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+
+  </Document>
+</kml>
+

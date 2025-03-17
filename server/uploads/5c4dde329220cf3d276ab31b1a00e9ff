@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Delhi Map</name>
+    <Placemark>
+      <name>Delhi Center</name>
+      <Point>
+        <coordinates>77.1025,28.7041</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>Delhi Main Road</name>
+      <LineString>
+        <coordinates>77.1025,28.7041 77.2090,28.6139</coordinates>
+      </LineString>
+    </Placemark>
+  </Document>
+</kml>
